@@ -1,0 +1,45 @@
+<edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+  <stateGen>
+    <baseStructureClass>storage.State</baseStructureClass>
+    <variableMap>
+      <entry>
+        <string>transferData</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>dataSize</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>inTransfer</string>
+        <edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+          <value class="map"/>
+        </edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+      </entry>
+      <entry>
+        <string>storedData</string>
+        <edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+          <value class="map"/>
+        </edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+      </entry>
+    </variableMap>
+    <filePathToLoadFrom>null</filePathToLoadFrom>
+    <objectName>Storage State</objectName>
+  </stateGen>
+  <paramGen/>
+  <sharedParams>
+    <string>storageParams</string>
+  </sharedParams>
+  <flowMap class="storage.F"/>
+  <jumpMap class="storage.G"/>
+  <flowSet class="storage.C"/>
+  <jumpSet class="storage.D"/>
+  <input class="storage.InputLaw"/>
+  <output class="storage.OutputLaw"/>
+</edu.ucsc.cross.jheq.core.feature.SystemGenerator>

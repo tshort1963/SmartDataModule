@@ -1,0 +1,21 @@
+<edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+  <baseStructureClass>sensor.CollectionParams</baseStructureClass>
+  <variableMap>
+    <entry>
+      <string>maxSampleInterval</string>
+      <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        <max>1.5</max>
+        <min>1.5</min>
+      </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+    </entry>
+    <entry>
+      <string>minSampleInterval</string>
+      <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        <max>1.5</max>
+        <min>1.5</min>
+      </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+    </entry>
+  </variableMap>
+  <filePathToLoadFrom>null</filePathToLoadFrom>
+  <objectName>CollectionParams</objectName>
+</edu.ucsc.cross.jheq.core.feature.ObjectGenerator>

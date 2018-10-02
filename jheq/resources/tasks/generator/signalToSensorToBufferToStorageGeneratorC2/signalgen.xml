@@ -1,0 +1,54 @@
+<edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+  <stateGen>
+    <baseStructureClass>signalgen.State</baseStructureClass>
+    <variableMap>
+      <entry>
+        <string>xVal</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>yVal</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>1.0</max>
+          <min>1.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>translate</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+    </variableMap>
+    <filePathToLoadFrom>null</filePathToLoadFrom>
+    <objectName>State</objectName>
+  </stateGen>
+  <paramGen>
+    <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+      <baseStructureClass>signalgen.SigVal</baseStructureClass>
+      <variableMap>
+        <entry>
+          <string>value</string>
+          <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+            <max>0.0</max>
+            <min>0.0</min>
+          </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        </entry>
+      </variableMap>
+      <filePathToLoadFrom>null</filePathToLoadFrom>
+      <objectName>SigVal</objectName>
+    </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+  </paramGen>
+  <sharedParams>
+    <string>signalParams</string>
+  </sharedParams>
+  <flowMap class="signalgen.F"/>
+  <jumpMap class="signalgen.G"/>
+  <flowSet class="signalgen.C"/>
+  <jumpSet class="signalgen.D"/>
+  <output class="signalgen.OutputLaw"/>
+</edu.ucsc.cross.jheq.core.feature.SystemGenerator>

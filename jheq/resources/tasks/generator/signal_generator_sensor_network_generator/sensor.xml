@@ -1,0 +1,34 @@
+<edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+  <stateGen>
+    <baseStructureClass>sensor.State</baseStructureClass>
+    <variableMap>
+      <entry>
+        <string>nextTransmission</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>1.0</max>
+          <min>0.1</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>storedData</string>
+        <edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+          <value class="sensor.DataObject">
+            <size>0.0</size>
+          </value>
+        </edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+      </entry>
+    </variableMap>
+    <filePathToLoadFrom>null</filePathToLoadFrom>
+    <objectName>State</objectName>
+  </stateGen>
+  <paramGen/>
+  <sharedParams>
+    <string>collectionParams</string>
+  </sharedParams>
+  <flowMap class="sensor.F"/>
+  <jumpMap class="sensor.G"/>
+  <flowSet class="sensor.C"/>
+  <jumpSet class="sensor.D"/>
+  <input class="sensor.InputLaw"/>
+  <output class="sensor.OutputLaw"/>
+</edu.ucsc.cross.jheq.core.feature.SystemGenerator>

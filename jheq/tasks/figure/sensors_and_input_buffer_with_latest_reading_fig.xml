@@ -1,0 +1,42 @@
+<edu.ucsc.cross.jheq.core.feature.FigureDefinition>
+  <width>1000</width>
+  <height>1000</height>
+  <mainTitle>Main Title</mainTitle>
+  <content>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>nextTransmission</yAxisVariable>
+        <mainTitle>Sensor Sampling</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+       <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>dataSize</yAxisVariable>
+        <mainTitle>Data Stored</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+        <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>sensorReading</yAxisVariable>
+        <mainTitle>Data Stored</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+  </content>
+  <displayInWindow>true</displayInWindow>
+  <filePath>null</filePath>
+  <fileFormat>PDF</fileFormat>
+  <rendererFilePath>null</rendererFilePath>
+  <showGlobalLegend>false</showGlobalLegend>
+</edu.ucsc.cross.jheq.core.feature.FigureDefinition>

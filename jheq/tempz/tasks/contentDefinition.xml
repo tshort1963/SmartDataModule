@@ -1,0 +1,32 @@
+<edu.ucsc.cross.jheq.core.feature.ContentDefinition>
+  <globalVariableGenerator>
+    <entry>
+      <string></string>
+      <string></string>
+    </entry>
+  </globalVariableGenerator>
+  <systemDefiners>
+    <entry>
+      <string>system1</string>
+      <edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+        <flowMapClass>F</flowMapClass>
+        <jumpMapClass>G</jumpMapClass>
+        <flowSetClass>C</flowSetClass>
+        <jumpSetClass>D</jumpSetClass>
+        <inputMapClass></inputMapClass>
+        <outputMapClass></outputMapClass>
+        <stateClass>State</stateClass>
+        <parameterClasses>
+          <string></string>
+        </parameterClasses>
+        <sharedParameters>
+          <string></string>
+        </sharedParameters>
+      </edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+    </entry>
+  </systemDefiners>
+  <postProcess>
+    <string></string>
+  </postProcess>
+  <splitFiles>true</splitFiles>
+</edu.ucsc.cross.jheq.core.feature.ContentDefinition>

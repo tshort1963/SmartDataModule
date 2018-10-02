@@ -1,0 +1,32 @@
+ <edu.ucsc.cross.jheq.core.feature.ContentDefinition>
+  <globalVariableGenerator>
+    <entry>
+      <string>inBufParams</string>
+      <string>inbuffer.InBufParams</string>
+    </entry>
+  </globalVariableGenerator>
+  <systemDefiners>
+    <entry>
+      <string>inBuffer</string>
+      <edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+        <flowMapClass>dataoutsys.F</flowMapClass>
+        <jumpMapClass>dataoutsys.G</jumpMapClass>
+        <flowSetClass>dataoutsys.C</flowSetClass>
+        <jumpSetClass>dataoutsys.D</jumpSetClass>
+        <stateClass>dataoutsys.DataSourceSet</stateClass>
+         <inputMapClass>dataoutsys.InputLaw</inputMapClass>
+        <outputMapClass>dataoutsys.OutputLaw</outputMapClass>
+        <parameterClasses>
+        <string>dataoutsys.DataOutParams</string>
+        </parameterClasses>
+        <sharedParameters>
+        </sharedParameters>
+      </edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+ </entry>
+  </systemDefiners>
+  <postProcess>
+      <string>dataoutsys.CreateDataSourceStates</string>
+
+  </postProcess>
+  <splitFiles>true</splitFiles>
+</edu.ucsc.cross.jheq.core.feature.ContentDefinition>

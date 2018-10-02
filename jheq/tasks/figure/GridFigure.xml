@@ -1,0 +1,66 @@
+<edu.ucsc.cross.jheq.core.feature.FigureDefinition>
+  <width>1000</width>
+  <height>650</height>
+  <mainTitle>Data Module Simulaton Results</mainTitle>
+  <content>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>yVal</yAxisVariable>
+        <mainTitle>Signal Source</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>dataSize</yAxisVariable>
+        <mainTitle>Total Data Stored</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>DataSensorReading</yAxisVariable>
+        <mainTitle>Sensor Reading</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>nextTransmission</yAxisVariable>
+        <mainTitle>Sensor Update Timer</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>value</yAxisVariable>
+        <mainTitle>Data Module Output</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+       <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>transferData</yAxisVariable>
+        <mainTitle>Data Write to Storage</mainTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+  </content>
+  <displayInWindow>true</displayInWindow>
+  <filePath>null</filePath>
+  <fileFormat>PDF</fileFormat> 
+  <rendererFilePath>null</rendererFilePath>
+  <showGlobalLegend>false</showGlobalLegend>
+</edu.ucsc.cross.jheq.core.feature.FigureDefinition> 

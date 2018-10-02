@@ -1,0 +1,30 @@
+<edu.ucsc.cross.jheq.core.feature.ContentDefinition>
+  <globalVariableGenerator>
+    <entry>
+      <string>signalParams</string>
+      <string>signalgen.SignalParams</string>
+    </entry>
+  </globalVariableGenerator>
+  <systemDefiners>
+    <entry>
+      <string>signalgen</string>
+      <edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+        <flowMapClass>signalgen.F</flowMapClass>
+        <jumpMapClass>signalgen.G</jumpMapClass>
+        <flowSetClass>signalgen.C</flowSetClass>
+        <jumpSetClass>signalgen.D</jumpSetClass>
+        <stateClass>signalgen.State</stateClass>
+        <outputMapClass>signalgen.OutputLaw</outputMapClass>
+        <parameterClasses>
+           <string>signalgen.SigVal</string>
+        </parameterClasses>
+        <sharedParameters>
+          <string>signalParams</string>
+        </sharedParameters>
+      </edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+    </entry>
+  </systemDefiners>
+  <postProcess>
+  </postProcess>
+  <splitFiles>true</splitFiles>
+</edu.ucsc.cross.jheq.core.feature.ContentDefinition>

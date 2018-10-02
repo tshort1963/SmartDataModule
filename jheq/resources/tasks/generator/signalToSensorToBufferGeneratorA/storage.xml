@@ -1,0 +1,71 @@
+<edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+  <stateGen>
+    <baseStructureClass>storage.State</baseStructureClass>
+    <variableMap>
+      <entry>
+        <string>transferData</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>dataSize</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>state</string>
+        <edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+          <value class="storage.StorageState">IDLE</value>
+        </edu.ucsc.cross.jheq.core.variable.ClonableVariable>
+      </entry>
+    </variableMap>
+    <filePathToLoadFrom>null</filePathToLoadFrom>
+    <objectName>State</objectName>
+  </stateGen>
+  <paramGen>
+    <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+      <baseStructureClass>storage.Storage</baseStructureClass>
+      <variableMap/>
+      <filePathToLoadFrom>null</filePathToLoadFrom>
+      <objectName>Storage</objectName>
+    </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+    <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+      <baseStructureClass>control.ScheduleControl</baseStructureClass>
+      <variableMap>
+        <entry>
+          <string>currentQueue</string>
+          <edu.ucsc.cross.jheq.core.variable.ClonableVariable/>
+        </entry>
+      </variableMap>
+      <filePathToLoadFrom>null</filePathToLoadFrom>
+      <objectName>ScheduleControl</objectName>
+    </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+    <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+      <baseStructureClass>control.ScheduleParameters</baseStructureClass>
+      <variableMap>
+        <entry>
+          <string>minSizeToTransfer</string>
+          <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+            <max>100.0</max>
+            <min>100.0</min>
+          </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        </entry>
+      </variableMap>
+      <filePathToLoadFrom>null</filePathToLoadFrom>
+      <objectName>ScheduleParameters</objectName>
+    </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+  </paramGen>
+  <sharedParams>
+    <string>storageParams</string>
+  </sharedParams>
+  <flowMap class="storage.F"/>
+  <jumpMap class="storage.G"/>
+  <flowSet class="storage.C"/>
+  <jumpSet class="storage.D"/>
+  <input class="storage.InputLaw"/>
+  <output class="storage.OutputLaw"/>
+</edu.ucsc.cross.jheq.core.feature.SystemGenerator>
