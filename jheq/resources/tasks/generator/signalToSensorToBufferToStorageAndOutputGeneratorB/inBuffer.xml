@@ -19,12 +19,20 @@
       <entry>
         <string>storedData</string>
         <edu.ucsc.cross.jheq.core.variable.ClonableVariable>
-          <value class="map"/>
+          <value class="dataobject.DataPartition">
+            <properties>
+              <index>0</index>
+              <name>DataPartition</name>
+              <storeTrajectory>false</storeTrajectory>
+            </properties>
+            <storedData/>
+            <lastUpdate>0.0</lastUpdate>
+          </value>
         </edu.ucsc.cross.jheq.core.variable.ClonableVariable>
       </entry>
     </variableMap>
     <filePathToLoadFrom>null</filePathToLoadFrom>
-    <objectName>State</objectName>
+    <objectName>Buffer</objectName>
   </stateGen>
   <paramGen/>
   <sharedParams>

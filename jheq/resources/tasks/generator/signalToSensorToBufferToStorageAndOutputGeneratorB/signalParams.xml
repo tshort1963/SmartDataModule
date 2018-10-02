@@ -4,15 +4,15 @@
     <entry>
       <string>amplitude</string>
       <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-        <max>3.0</max>
+        <max>1.0</max>
         <min>1.0</min>
       </edu.ucsc.cross.jheq.core.variable.RandomVariable>
     </entry>
     <entry>
       <string>period</string>
       <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-        <max>3.0</max>
-        <min>1.0</min>
+        <max>15.0</max>
+        <min>5.0</min>
       </edu.ucsc.cross.jheq.core.variable.RandomVariable>
     </entry>
     <entry>

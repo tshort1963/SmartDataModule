@@ -17,7 +17,7 @@
       </entry>
     </variableMap>
     <filePathToLoadFrom>null</filePathToLoadFrom>
-    <objectName>DataSourceSet</objectName>
+    <objectName>Module Output</objectName>
   </stateGen>
   <paramGen>
     <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>

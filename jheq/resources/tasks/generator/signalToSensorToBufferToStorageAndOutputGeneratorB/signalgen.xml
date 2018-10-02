@@ -3,13 +3,6 @@
     <baseStructureClass>signalgen.State</baseStructureClass>
     <variableMap>
       <entry>
-        <string>xVal</string>
-        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-          <max>0.0</max>
-          <min>0.0</min>
-        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
-      </entry>
-      <entry>
         <string>yVal</string>
         <edu.ucsc.cross.jheq.core.variable.RandomVariable>
           <max>1.0</max>
@@ -21,6 +14,13 @@
         <edu.ucsc.cross.jheq.core.variable.RandomVariable>
           <max>0.0</max>
           <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>xVal</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>1.0</max>
+          <min>1.0</min>
         </edu.ucsc.cross.jheq.core.variable.RandomVariable>
       </entry>
     </variableMap>

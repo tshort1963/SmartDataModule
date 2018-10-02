@@ -13,7 +13,7 @@
   </integrator>
   <maxEventHandlerIterations>100</maxEventHandlerIterations>
   <maximumJumps>20000</maximumJumps>
-  <maximumTime>25.0</maximumTime>
+  <maximumTime>12.0</maximumTime>
   <storeNonPrimativeData>false</storeNonPrimativeData>
   <zeroThreshold>0.001</zeroThreshold>
 </edu.ucsc.cross.jheq.core.environment.EnvironmentSettings>

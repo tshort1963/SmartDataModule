@@ -5,8 +5,8 @@
       <entry>
         <string>nextTransmission</string>
         <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-          <max>1.0</max>
-          <min>0.5</min>
+          <max>0.2</max>
+          <min>0.2</min>
         </edu.ucsc.cross.jheq.core.variable.RandomVariable>
       </entry>
       <entry>
@@ -20,9 +20,24 @@
       </entry>
     </variableMap>
     <filePathToLoadFrom>null</filePathToLoadFrom>
-    <objectName>State</objectName>
+    <objectName>Sensor Update</objectName>
   </stateGen>
-  <paramGen/>
+  <paramGen>
+    <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+      <baseStructureClass>sensor.SensorVal</baseStructureClass>
+      <variableMap>
+        <entry>
+          <string>DataSensorReading</string>
+          <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+            <max>0.0</max>
+            <min>0.0</min>
+          </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        </entry>
+      </variableMap>
+      <filePathToLoadFrom>null</filePathToLoadFrom>
+      <objectName>Sensor Output</objectName>
+    </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+  </paramGen>
   <sharedParams>
     <string>collectionParams</string>
   </sharedParams>

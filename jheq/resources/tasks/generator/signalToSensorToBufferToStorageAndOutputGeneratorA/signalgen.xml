@@ -6,7 +6,7 @@
         <string>yVal</string>
         <edu.ucsc.cross.jheq.core.variable.RandomVariable>
           <max>1.0</max>
-          <min>0.2</min>
+          <min>1.0</min>
         </edu.ucsc.cross.jheq.core.variable.RandomVariable>
       </entry>
       <entry>

@@ -4,8 +4,15 @@
     <entry>
       <string>writeSpeed</string>
       <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-        <max>500.0</max>
-        <min>500.0</min>
+        <max>100.0</max>
+        <min>100.0</min>
+      </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+    </entry>
+    <entry>
+      <string>minTransferSize</string>
+      <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        <max>0.0</max>
+        <min>0.0</min>
       </edu.ucsc.cross.jheq.core.variable.RandomVariable>
     </entry>
   </variableMap>

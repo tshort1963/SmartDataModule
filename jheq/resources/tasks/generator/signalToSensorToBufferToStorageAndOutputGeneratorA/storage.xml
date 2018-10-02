@@ -50,8 +50,8 @@
         <entry>
           <string>minSizeToTransfer</string>
           <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-            <max>0.0</max>
-            <min>0.0</min>
+            <max>5.0</max>
+            <min>5.0</min>
           </edu.ucsc.cross.jheq.core.variable.RandomVariable>
         </entry>
       </variableMap>
