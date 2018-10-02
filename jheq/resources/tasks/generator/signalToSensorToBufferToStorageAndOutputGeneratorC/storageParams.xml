@@ -4,8 +4,8 @@
     <entry>
       <string>writeSpeed</string>
       <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-        <max>120.0</max>
-        <min>120.0</min>
+        <max>300.0</max>
+        <min>300.0</min>
       </edu.ucsc.cross.jheq.core.variable.RandomVariable>
     </entry>
     <entry>

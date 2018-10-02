@@ -1,21 +1,21 @@
 <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
-  <baseStructureClass>storage.StorageParams</baseStructureClass>
+  <baseStructureClass>sensor.CollectionParams</baseStructureClass>
   <variableMap>
     <entry>
-      <string>writeSpeed</string>
+      <string>maxSampleInterval</string>
       <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-        <max>120.0</max>
-        <min>120.0</min>
+        <max>0.5</max>
+        <min>0.5</min>
       </edu.ucsc.cross.jheq.core.variable.RandomVariable>
     </entry>
     <entry>
-      <string>minTransferSize</string>
+      <string>minSampleInterval</string>
       <edu.ucsc.cross.jheq.core.variable.RandomVariable>
-        <max>0.0</max>
-        <min>0.0</min>
+        <max>0.5</max>
+        <min>0.5</min>
       </edu.ucsc.cross.jheq.core.variable.RandomVariable>
     </entry>
   </variableMap>
   <filePathToLoadFrom>null</filePathToLoadFrom>
-  <objectName>StorageParams</objectName>
+  <objectName>CollectionParams</objectName>
 </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>

@@ -3,25 +3,25 @@
     <entry>
       <string>inBufParams</string>
       <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
-        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/inBufParams.xml</filePathToLoadFrom>
+        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/inBufParams.xml</filePathToLoadFrom>
       </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
     </entry>
     <entry>
       <string>storageParams</string>
       <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
-        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/storageParams.xml</filePathToLoadFrom>
+        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/storageParams.xml</filePathToLoadFrom>
       </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
     </entry>
     <entry>
       <string>collectionParams</string>
       <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
-        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/collectionParams.xml</filePathToLoadFrom>
+        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/collectionParams.xml</filePathToLoadFrom>
       </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
     </entry>
     <entry>
       <string>signalParams</string>
       <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
-        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/signalParams.xml</filePathToLoadFrom>
+        <filePathToLoadFrom>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/signalParams.xml</filePathToLoadFrom>
       </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
     </entry>
   </globalDataGenerators>
@@ -29,31 +29,31 @@
     <entry>
       <string>signalgen</string>
       <edu.ucsc.cross.jheq.core.feature.SystemGenerator>
-        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/signalgen.xml</filePath>
+        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/signalgen.xml</filePath>
       </edu.ucsc.cross.jheq.core.feature.SystemGenerator>
     </entry>
     <entry>
       <string>dataOut</string>
       <edu.ucsc.cross.jheq.core.feature.SystemGenerator>
-        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/dataOut.xml</filePath>
+        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/dataOut.xml</filePath>
       </edu.ucsc.cross.jheq.core.feature.SystemGenerator>
     </entry>
     <entry>
       <string>sensor</string>
       <edu.ucsc.cross.jheq.core.feature.SystemGenerator>
-        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/sensor.xml</filePath>
+        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/sensor.xml</filePath>
       </edu.ucsc.cross.jheq.core.feature.SystemGenerator>
     </entry>
     <entry>
       <string>storage</string>
       <edu.ucsc.cross.jheq.core.feature.SystemGenerator>
-        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/storage.xml</filePath>
+        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/storage.xml</filePath>
       </edu.ucsc.cross.jheq.core.feature.SystemGenerator>
     </entry>
     <entry>
       <string>inBuffer</string>
       <edu.ucsc.cross.jheq.core.feature.SystemGenerator>
-        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorA/inBuffer.xml</filePath>
+        <filePath>resources/tasks/generator/signalToSensorToBufferToStorageAndOutputGeneratorB/inBuffer.xml</filePath>
       </edu.ucsc.cross.jheq.core.feature.SystemGenerator>
     </entry>
   </systemGenerators>
@@ -63,9 +63,6 @@
     <string>sensor</string>
     <string>storage</string>
     <string>inBuffer</string>
-    <string>signalgen</string>
-     <string>sensor</string>
-     <string>inBuffer</string>
   </vertices>
   <adjacency>
     <int-array>
@@ -74,16 +71,10 @@
       <int>1</int>
       <int>0</int>
       <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
     </int-array>
     <int-array>
       <int>0</int>
-      <int>0</int>
-      <int>0</int>
       <int>1</int>
-      <int>0</int>
       <int>0</int>
       <int>0</int>
       <int>0</int>
@@ -94,14 +85,8 @@
       <int>0</int>
       <int>0</int>
       <int>1</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
     </int-array>
     <int-array>
-      <int>0</int>
-      <int>1</int>
-      <int>0</int>
       <int>0</int>
       <int>1</int>
       <int>0</int>
@@ -113,39 +98,6 @@
       <int>0</int>
       <int>0</int>
       <int>1</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-    </int-array>
-     <int-array>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>1</int>
-      <int>0</int>
-    </int-array>
-     <int-array>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>1</int>
-    </int-array>
-     <int-array>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
-      <int>1</int>
-      <int>0</int>
-      <int>0</int>
-      <int>0</int>
       <int>0</int>
     </int-array>
   </adjacency>
